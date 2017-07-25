@@ -1,6 +1,6 @@
 # LIFOandFIFOImageLoader
 
-线程池异步加载图片
+线程池异步加载图片（对图片进行压缩，内存控制）
 
 可LIFO加载（后进先出），可FIFO加载（先进先出）
 
