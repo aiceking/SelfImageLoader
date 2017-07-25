@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="vmeet.example.com.myfifolifothreadtest.ImageShowActivity">
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="网络图片ListView"
+        android:textSize="18sp"
+        android:id="@+id/btn_number"/>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+    <vmeet.example.com.myfifolifothreadtest.view.MyImgGridView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="3"
+        android:horizontalSpacing="2dp"
+        android:verticalSpacing="2dp"
+        android:id="@+id/grid"></vmeet.example.com.myfifolifothreadtest.view.MyImgGridView>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/iv"
+            android:background="#8A8A8A"
+            android:layout_gravity="center"
+            />
+    </FrameLayout>
+</LinearLayout>
