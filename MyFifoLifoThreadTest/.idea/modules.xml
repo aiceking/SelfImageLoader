@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/LIFOandFIFOImageLoader-MyFifoLifoThreadTest.iml" filepath="$PROJECT_DIR$/LIFOandFIFOImageLoader-MyFifoLifoThreadTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/MyFifoLifoThreadTest.iml" filepath="$PROJECT_DIR$/MyFifoLifoThreadTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/MyFifoLifoThreadTest-app.iml" filepath="$PROJECT_DIR$/app/MyFifoLifoThreadTest-app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
